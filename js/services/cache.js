@@ -1,0 +1,4 @@
+// Non-authoritative offline cache. Monetary writes always require the backend.
+const database = () => new Promise((resolve,reject)=>{const r=indexedDB.open('fantasy-read-cache:'+new URL('../../',import.meta.url).pathname,1);r.onupgradeneeded=()=>r.result.createObjectStore('cache');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});
+export async function cacheState(value){try{const db=await database();await new Promise((resolve,reject)=>{const tx=db.transaction('cache','readwrite');tx.objectStore('cache').put(value,'last');tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);});db.close();}catch{}}
+export async function readCache(){try{const db=await database();const value=await new Promise((resolve,reject)=>{const r=db.transaction('cache').objectStore('cache').get('last');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});db.close();return value;}catch{return null;}}

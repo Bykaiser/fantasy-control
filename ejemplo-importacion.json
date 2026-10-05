@@ -1,0 +1,691 @@
+{
+  "season": "2026/27",
+  "account": {
+    "name": "Cuenta de ejemplo"
+  },
+  "league": {
+    "id": "ejemplo-importacion",
+    "name": "Liga de ejemplo · datos ficticios",
+    "members": [
+      {
+        "id": "demo-0",
+        "name": "Javier",
+        "points": 480,
+        "value": 92000000
+      },
+      {
+        "id": "demo-1",
+        "name": "Luis",
+        "points": 467,
+        "value": 89500000
+      },
+      {
+        "id": "demo-2",
+        "name": "Moises",
+        "points": 454,
+        "value": 87000000
+      },
+      {
+        "id": "demo-3",
+        "name": "Alfredo",
+        "points": 441,
+        "value": 84500000
+      },
+      {
+        "id": "demo-4",
+        "name": "Ezequiel",
+        "points": 428,
+        "value": 82000000
+      },
+      {
+        "id": "demo-5",
+        "name": "David",
+        "points": 415,
+        "value": 79500000
+      },
+      {
+        "id": "demo-6",
+        "name": "Adrián",
+        "points": 402,
+        "value": 77000000
+      },
+      {
+        "id": "demo-7",
+        "name": "Miguel",
+        "points": 389,
+        "value": 74500000
+      },
+      {
+        "id": "demo-8",
+        "name": "Jorge",
+        "points": 376,
+        "value": 72000000
+      },
+      {
+        "id": "demo-9",
+        "name": "Rober",
+        "points": 363,
+        "value": 69500000
+      },
+      {
+        "id": "demo-10",
+        "name": "Raid",
+        "points": 350,
+        "value": 67000000
+      },
+      {
+        "id": "demo-11",
+        "name": "Fernando",
+        "points": 337,
+        "value": 64500000
+      }
+    ]
+  },
+  "team": {
+    "name": "Ferrer FC · ejemplo",
+    "formation": "3-4-3",
+    "balance": 6500000,
+    "value": 203000000,
+    "points": 402,
+    "players": [
+      {
+        "id": "p0",
+        "name": "Courtois",
+        "position": "POR",
+        "club": "Real Madrid",
+        "value": 12000000,
+        "points": 48,
+        "status": "Disponible",
+        "starter": true
+      },
+      {
+        "id": "p1",
+        "name": "Le Normand",
+        "position": "DEF",
+        "club": "Atlético",
+        "value": 9000000,
+        "points": 41,
+        "status": "Disponible",
+        "starter": true
+      },
+      {
+        "id": "p2",
+        "name": "Vivian",
+        "position": "DEF",
+        "club": "Athletic",
+        "value": 8000000,
+        "points": 43,
+        "status": "Disponible",
+        "starter": true
+      },
+      {
+        "id": "p3",
+        "name": "Cubarsí",
+        "position": "DEF",
+        "club": "Barcelona",
+        "value": 10000000,
+        "points": 51,
+        "status": "Disponible",
+        "starter": true
+      },
+      {
+        "id": "p4",
+        "name": "Pedri",
+        "position": "MED",
+        "club": "Barcelona",
+        "value": 22000000,
+        "points": 72,
+        "status": "Disponible",
+        "starter": true
+      },
+      {
+        "id": "p5",
+        "name": "Valverde",
+        "position": "MED",
+        "club": "Real Madrid",
+        "value": 21000000,
+        "points": 69,
+        "status": "Disponible",
+        "starter": true
+      },
+      {
+        "id": "p6",
+        "name": "Isco",
+        "position": "MED",
+        "club": "Betis",
+        "value": 17000000,
+        "points": 62,
+        "status": "Disponible",
+        "starter": true
+      },
+      {
+        "id": "p7",
+        "name": "Baena",
+        "position": "MED",
+        "club": "Atlético",
+        "value": 16000000,
+        "points": 59,
+        "status": "Disponible",
+        "starter": true
+      },
+      {
+        "id": "p8",
+        "name": "Mbappé",
+        "position": "DEL",
+        "club": "Real Madrid",
+        "value": 42000000,
+        "points": 83,
+        "status": "Disponible",
+        "starter": true
+      },
+      {
+        "id": "p9",
+        "name": "Julián Álvarez",
+        "position": "DEL",
+        "club": "Atlético",
+        "value": 28000000,
+        "points": 76,
+        "status": "Disponible",
+        "starter": true
+      },
+      {
+        "id": "p10",
+        "name": "Oyarzabal",
+        "position": "DEL",
+        "club": "Real Sociedad",
+        "value": 18000000,
+        "points": 57,
+        "status": "Disponible",
+        "starter": true
+      }
+    ]
+  },
+  "market": [
+    {
+      "id": "p4",
+      "name": "Pedri",
+      "position": "MED",
+      "club": "Barcelona",
+      "value": 22000000,
+      "points": 72,
+      "status": "Disponible",
+      "starter": true,
+      "owner": "Mercado",
+      "price": 22000000,
+      "remaining": "No disponible"
+    },
+    {
+      "id": "p5",
+      "name": "Valverde",
+      "position": "MED",
+      "club": "Real Madrid",
+      "value": 21000000,
+      "points": 69,
+      "status": "Disponible",
+      "starter": true,
+      "owner": "Mercado",
+      "price": 21000000,
+      "remaining": "No disponible"
+    },
+    {
+      "id": "p6",
+      "name": "Isco",
+      "position": "MED",
+      "club": "Betis",
+      "value": 17000000,
+      "points": 62,
+      "status": "Disponible",
+      "starter": true,
+      "owner": "Mercado",
+      "price": 17000000,
+      "remaining": "No disponible"
+    },
+    {
+      "id": "p7",
+      "name": "Baena",
+      "position": "MED",
+      "club": "Atlético",
+      "value": 16000000,
+      "points": 59,
+      "status": "Disponible",
+      "starter": true,
+      "owner": "Mercado",
+      "price": 16000000,
+      "remaining": "No disponible"
+    }
+  ],
+  "matchdays": [
+    {
+      "number": 1,
+      "final": true,
+      "results": [
+        {
+          "memberId": "demo-0",
+          "points": 29
+        },
+        {
+          "memberId": "demo-1",
+          "points": 40
+        },
+        {
+          "memberId": "demo-2",
+          "points": 51
+        },
+        {
+          "memberId": "demo-3",
+          "points": 62
+        },
+        {
+          "memberId": "demo-4",
+          "points": 26
+        },
+        {
+          "memberId": "demo-5",
+          "points": 37
+        },
+        {
+          "memberId": "demo-6",
+          "points": 48
+        },
+        {
+          "memberId": "demo-7",
+          "points": 59
+        },
+        {
+          "memberId": "demo-8",
+          "points": 23
+        },
+        {
+          "memberId": "demo-9",
+          "points": 34
+        },
+        {
+          "memberId": "demo-10",
+          "points": 45
+        },
+        {
+          "memberId": "demo-11",
+          "points": 56
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "final": true,
+      "results": [
+        {
+          "memberId": "demo-0",
+          "points": 36
+        },
+        {
+          "memberId": "demo-1",
+          "points": 47
+        },
+        {
+          "memberId": "demo-2",
+          "points": 58
+        },
+        {
+          "memberId": "demo-3",
+          "points": 22
+        },
+        {
+          "memberId": "demo-4",
+          "points": 33
+        },
+        {
+          "memberId": "demo-5",
+          "points": 44
+        },
+        {
+          "memberId": "demo-6",
+          "points": 55
+        },
+        {
+          "memberId": "demo-7",
+          "points": 66
+        },
+        {
+          "memberId": "demo-8",
+          "points": 30
+        },
+        {
+          "memberId": "demo-9",
+          "points": 41
+        },
+        {
+          "memberId": "demo-10",
+          "points": 52
+        },
+        {
+          "memberId": "demo-11",
+          "points": 63
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "final": true,
+      "results": [
+        {
+          "memberId": "demo-0",
+          "points": 43
+        },
+        {
+          "memberId": "demo-1",
+          "points": 54
+        },
+        {
+          "memberId": "demo-2",
+          "points": 65
+        },
+        {
+          "memberId": "demo-3",
+          "points": 29
+        },
+        {
+          "memberId": "demo-4",
+          "points": 40
+        },
+        {
+          "memberId": "demo-5",
+          "points": 51
+        },
+        {
+          "memberId": "demo-6",
+          "points": 62
+        },
+        {
+          "memberId": "demo-7",
+          "points": 26
+        },
+        {
+          "memberId": "demo-8",
+          "points": 37
+        },
+        {
+          "memberId": "demo-9",
+          "points": 48
+        },
+        {
+          "memberId": "demo-10",
+          "points": 59
+        },
+        {
+          "memberId": "demo-11",
+          "points": 23
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "final": true,
+      "results": [
+        {
+          "memberId": "demo-0",
+          "points": 50
+        },
+        {
+          "memberId": "demo-1",
+          "points": 61
+        },
+        {
+          "memberId": "demo-2",
+          "points": 25
+        },
+        {
+          "memberId": "demo-3",
+          "points": 36
+        },
+        {
+          "memberId": "demo-4",
+          "points": 47
+        },
+        {
+          "memberId": "demo-5",
+          "points": 58
+        },
+        {
+          "memberId": "demo-6",
+          "points": 22
+        },
+        {
+          "memberId": "demo-7",
+          "points": 33
+        },
+        {
+          "memberId": "demo-8",
+          "points": 44
+        },
+        {
+          "memberId": "demo-9",
+          "points": 55
+        },
+        {
+          "memberId": "demo-10",
+          "points": 66
+        },
+        {
+          "memberId": "demo-11",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "final": true,
+      "results": [
+        {
+          "memberId": "demo-0",
+          "points": 57
+        },
+        {
+          "memberId": "demo-1",
+          "points": 68
+        },
+        {
+          "memberId": "demo-2",
+          "points": 32
+        },
+        {
+          "memberId": "demo-3",
+          "points": 43
+        },
+        {
+          "memberId": "demo-4",
+          "points": 54
+        },
+        {
+          "memberId": "demo-5",
+          "points": 65
+        },
+        {
+          "memberId": "demo-6",
+          "points": 29
+        },
+        {
+          "memberId": "demo-7",
+          "points": 40
+        },
+        {
+          "memberId": "demo-8",
+          "points": 51
+        },
+        {
+          "memberId": "demo-9",
+          "points": 62
+        },
+        {
+          "memberId": "demo-10",
+          "points": 26
+        },
+        {
+          "memberId": "demo-11",
+          "points": 37
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "final": true,
+      "results": [
+        {
+          "memberId": "demo-0",
+          "points": 64
+        },
+        {
+          "memberId": "demo-1",
+          "points": 28
+        },
+        {
+          "memberId": "demo-2",
+          "points": 39
+        },
+        {
+          "memberId": "demo-3",
+          "points": 50
+        },
+        {
+          "memberId": "demo-4",
+          "points": 61
+        },
+        {
+          "memberId": "demo-5",
+          "points": 25
+        },
+        {
+          "memberId": "demo-6",
+          "points": 36
+        },
+        {
+          "memberId": "demo-7",
+          "points": 47
+        },
+        {
+          "memberId": "demo-8",
+          "points": 58
+        },
+        {
+          "memberId": "demo-9",
+          "points": 22
+        },
+        {
+          "memberId": "demo-10",
+          "points": 33
+        },
+        {
+          "memberId": "demo-11",
+          "points": 44
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "final": true,
+      "results": [
+        {
+          "memberId": "demo-0",
+          "points": 24
+        },
+        {
+          "memberId": "demo-1",
+          "points": 35
+        },
+        {
+          "memberId": "demo-2",
+          "points": 46
+        },
+        {
+          "memberId": "demo-3",
+          "points": 57
+        },
+        {
+          "memberId": "demo-4",
+          "points": 68
+        },
+        {
+          "memberId": "demo-5",
+          "points": 32
+        },
+        {
+          "memberId": "demo-6",
+          "points": 43
+        },
+        {
+          "memberId": "demo-7",
+          "points": 54
+        },
+        {
+          "memberId": "demo-8",
+          "points": 65
+        },
+        {
+          "memberId": "demo-9",
+          "points": 29
+        },
+        {
+          "memberId": "demo-10",
+          "points": 40
+        },
+        {
+          "memberId": "demo-11",
+          "points": 51
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "final": true,
+      "results": [
+        {
+          "memberId": "demo-0",
+          "points": 19
+        },
+        {
+          "memberId": "demo-1",
+          "points": 26
+        },
+        {
+          "memberId": "demo-2",
+          "points": 66
+        },
+        {
+          "memberId": "demo-3",
+          "points": 55
+        },
+        {
+          "memberId": "demo-4",
+          "points": 48
+        },
+        {
+          "memberId": "demo-5",
+          "points": 42
+        },
+        {
+          "memberId": "demo-6",
+          "points": 31
+        },
+        {
+          "memberId": "demo-7",
+          "points": 60
+        },
+        {
+          "memberId": "demo-8",
+          "points": 51
+        },
+        {
+          "memberId": "demo-9",
+          "points": 39
+        },
+        {
+          "memberId": "demo-10",
+          "points": 45
+        },
+        {
+          "memberId": "demo-11",
+          "points": 57
+        }
+      ]
+    }
+  ]
+}
